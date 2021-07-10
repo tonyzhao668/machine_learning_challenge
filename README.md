@@ -26,6 +26,8 @@ To help process this data, create machine learning models capable of classifying
 
 * Use KNN to start the job.
   Result : k=13 Train Acc: 0.690, Test Acc: 0.630
+  ![KNN](images/knn.PNG)
+  
 * Use `GridSearch` to tune model parameters and the grid model saved as "tony.save".
   The best params {'C': 220, 'gamma': 1e-06} with the best score: 0.7192458830292754
 * Tune and compare at least two different classifiers.
