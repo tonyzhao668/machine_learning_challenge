@@ -1,17 +1,20 @@
-# Machine Learning Homework - Exoplanet Exploration
+# Machine Learning - Exoplanet Exploration
 
 Tony Zhao finished 16/05/21
 
-* Every requirement fulfilled and tested fine.
-* KNN, SVC-GridSearchCV (grid model saved), Tesonflow models tested with Tensonflow got higher score.
-* The homework with a good design and challenge, thanks!
-* Thank you very much for review and comments!
+## Background
 
-Details as follows:
+Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
+
+To help process this data, create machine learning models capable of classifying candidate exoplanets from the raw dataset.
+
+- - -
+
+## task procedures:
 
 ### Preprocess the Data
 
-* Preprocess the dataset prior to fitting the model as required.
+* Preprocess the dataset prior to fitting the model.
 * 30 feature/columns selected and remove unnecessary features.
 * "koi_fpflag_nt, koi_fpflag_ss, koi_fpflag_co,koi_fpflag_ec, koi_period, koi_period_err1,	    koi_period_err2, koi_time0bk, koi_time0bk_err1 have been removed.
 * Use `MinMaxScaler` to scale the numerical data.
@@ -36,4 +39,19 @@ Details as follows:
 * My assumptions 2:the flag related features are not much relevant in my case, due to it related to        
   the observers' remarks, which have been deleted too. Hope I am right.
 
-16/05/21
+* Use `GridSearch` to tune model parameters.
+* Tune and compare at least two different classifiers.
+
+- - -
+
+## Resources
+
+* [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)
+
+* [Scikit-Learn Tutorial Part 1](https://www.youtube.com/watch?v=4PXAztQtoTg)
+
+* [Scikit-Learn Tutorial Part 2](https://www.youtube.com/watch?v=gK43gtGh49o&t=5858s)
+
+* [Grid Search](https://scikit-learn.org/stable/modules/grid_search.html)
+
+- - -
