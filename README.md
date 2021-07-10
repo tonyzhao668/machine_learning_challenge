@@ -14,6 +14,8 @@ To help process this data, create machine learning models capable of classifying
 
 ### Preprocess the Data
 
+![Read CSV](images/readcsv.PNG)
+
 * Preprocess the dataset prior to fitting the model.
 * 30 feature/columns selected and remove unnecessary features.
 * "koi_fpflag_nt, koi_fpflag_ss, koi_fpflag_co,koi_fpflag_ec, koi_period, koi_period_err1,	    koi_period_err2, koi_time0bk, koi_time0bk_err1 have been removed.
