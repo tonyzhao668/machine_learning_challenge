@@ -34,6 +34,9 @@ To help process this data, create machine learning models capable of classifying
   
 * Tune and compare at least two different classifiers.
 * Finally tensonflow has been tested.
+
+   ![Tensonflow](images/tensonflow.PNG) 
+   
    result Normal Neural Network - Loss: 0.5937785440778841, Accuracy: 0.7602974772453308 
    Predict is also made from the tesonflow mordel:
    Predicted classes: ['CANDIDATE' 'FALSE POSITIVE' 'CANDIDATE' 'CONFIRMED' 'CONFIRMED' CANDIDATE']
