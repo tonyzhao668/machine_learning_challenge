@@ -30,6 +30,8 @@ To help process this data, create machine learning models capable of classifying
   
 * Use `GridSearch` to tune model parameters and the grid model saved as "tony.save".
   The best params {'C': 220, 'gamma': 1e-06} with the best score: 0.7192458830292754
+  ![Gridsearch](images/gridsearch.PNG)
+  
 * Tune and compare at least two different classifiers.
 * Finally tensonflow has been tested.
    result Normal Neural Network - Loss: 0.5937785440778841, Accuracy: 0.7602974772453308 
